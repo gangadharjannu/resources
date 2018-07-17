@@ -1,3 +1,17 @@
+**Reduxhow?**  
+
+
+Redux:  
+action creators are the function that will return the action with payload  
+
+componet => Will dispatch actions with the use of action creator functions  
+this.dispatch('setorderid') => action creators   
+action creators => will return action   
+action => will be picked up by reducer  
+reducers => will return new state  
+component => will get the updated state properties based on the statepath  
+
+
 REDUX: 
 * https://medium.freecodecamp.org/exploring-the-what-and-the-why-of-redux-6faadab4768b
 * https://medium.com/dailyjs/when-do-i-know-im-ready-for-redux-f34da253c85f
